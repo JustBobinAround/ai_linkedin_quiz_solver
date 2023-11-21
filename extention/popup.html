@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Replacer</title>
+    <style>
+    /* Add some basic styles for the button and loading animation */
+    #loading-spinner {
+      display: none;
+    }
+
+
+    .loading {
+      display: inline-block;
+      border: 4px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+      border-top: 4px solid #3498db;
+      width: 30px;
+      height: 30px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    body {
+      width: 400px;
+      padding: 10px;
+    }
+  </style>
+
+</head>
+<body>
+  <h2>LinkedIn Quiz Solver</h2>
+  <div id="widget-container"></div>
+  <hr>
+  <div id="loading-spinner" class="loading"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
+

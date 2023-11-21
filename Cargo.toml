@@ -1,0 +1,11 @@
+[package]
+name = "ai_linkedin_quiz_solver"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tungstenite = "0.20.1"
+scraper = "0.18.1"
+openai_api = { git = "https://github.com/JustBobinAround/openai_api.git"}
