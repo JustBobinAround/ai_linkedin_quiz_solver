@@ -81,6 +81,8 @@ these steps:
 
 **OpenAi's api has been timing out lately, it may take a few tries to get an answer**
 
+**Some quizzes have images or complex code, don't be surprised if you fail a test**
+
 ## Important Note
 
 Use this extension responsibly and in compliance with all applicable laws and
